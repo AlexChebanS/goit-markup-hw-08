@@ -1,0 +1,36 @@
+.product-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+  margin-bottom: 50px;
+}
+.product-list {
+  display: flex;
+}
+.product-list__item + .product-list__item {
+  margin-left: 30px;
+}
+.product-list__item {
+  position: relative;
+}
+
+.product-list__text {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(47, 48, 58, 0.8);
+}
